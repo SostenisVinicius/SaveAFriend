@@ -1,0 +1,177 @@
+#page-login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-login .content-wrapper {
+    position: relative;
+
+    width: 100%;
+    max-width: 1300px;
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url(../../images/landing.png) no-repeat 90% center;
+}
+
+#page-login .content-wrapper img{
+    width: 11.5%;
+    height: 22.1%;
+}
+
+#page-login .content-wrapper .logo{
+    position: absolute;
+    left: 15%;
+    top: 7%;
+
+    margin-left: -30px;
+
+    width: 200px;
+    height: 70px;
+
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-login .content-wrapper h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 70px;
+
+    justify-content: center;
+    display: flex;
+}
+
+.content-wrapper .location{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.content-wrapper .location strong{
+    font-weight: 800;
+}
+
+.content-wrapper .enter-app:hover{
+    background: #96FEFF;
+}
+
+form.login-form {
+    width: 500px;
+    margin-left: 20px;
+  
+    overflow: hidden;
+  }
+  
+  form.login-form fieldset {
+    border: 0;
+  }
+  
+  form.login-form fieldset + fieldset {
+    margin-top: 80px;
+  }
+  
+  form.login-form .input-block label {
+    display: flex;
+    color: #FFF;
+    font-size: 22px;
+    margin-bottom: 8px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  
+  form.login-form .input-block input,
+  form.login-form .input-block textarea {
+    width: 100%;
+    background: #F5F8FA;
+    border: 1px solid #D3E2E5;
+    border-radius: 20px;
+    outline: none;
+    color: #5C8599;
+  }
+  
+  form.login-form .input-block input {
+    height: 64px;
+    padding: 0 16px;
+    margin-bottom: 8px;
+  }
+  
+  form.login-form .input-block textarea {
+    min-height: 120px;
+    max-height: 240px;
+    resize: vertical;
+    padding: 16px;
+    line-height: 28px;
+  }
+  
+  form.login-form button.confirm-button {
+    margin-top: 40px;
+  
+    width: 100%;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+    background: #239cb4;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: background-color 0.2s;
+  }
+  
+  form.login-form button.confirm-button:hover {
+    background: #26a4bd;
+  }
+  
+  form.login-form .cadastro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content:initial ;
+    flex-direction: row;
+  }
+
+  form.login-form .cadastro .cadastro-app{
+    position: relative;
+
+    width: 400px;
+    height: 30px;
+
+    transition: backgroud-color 0.2s;
+
+    flex-direction: row;
+}
+    form.login-form .cadastro .cadastro-app p{
+        margin-left: 40px;
+        color: #FFF;
+        margin-top: -30px;
+    }

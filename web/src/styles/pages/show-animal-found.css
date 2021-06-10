@@ -1,0 +1,70 @@
+#page-show-animal-found {
+  display: flex;
+}
+
+#page-show-animal-found {
+  flex: 1;
+}
+
+form.show-animal-found-form {
+  width: 85vw;
+  margin: 64px auto 0px 150px;
+
+  background: #FFFFFF;
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+
+  padding: 64px 40px;
+
+  overflow: hidden;
+}
+
+form.show-animal-found-form ul {
+  margin-bottom: 50px;
+}
+
+form.show-animal-found-form ul li {
+  display: grid;
+  grid-template-columns: repeat(5 ,1fr);
+
+}
+
+form.show-animal-found-form ul li img {
+  height: 30vh;
+  width: 15vw;
+  margin: 10px 20px 0px 0px;
+  border: 1px solid #c0cacc;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+form.show-animal-found-form ul li h1 {
+  color: #4D6F80;
+  font-size: 20px;
+  line-height: 54px;
+}
+
+form.show-animal-found-form fieldset {
+  border: 0;
+}
+
+form.show-animal-found-form fieldset + fieldset {
+  margin-top: 80px;
+}
+
+form.show-animal-found-form fieldset legend {
+  width: 100%;
+
+  font-size: 32px;
+  line-height: 34px;
+  color: #5C8599;
+  font-weight: 700;
+
+  border-bottom: 1px solid #D3E2E5;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+}
+
+form.show-animal-found-form .input-block + .input-block {
+  margin-top: 24px;
+}
