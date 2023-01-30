@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="BeTheHero" src="[.github/happy.png](https://99freelas.s3-sa-east-1.amazonaws.com/messages/1866648/f25f4e21-72a3-4d91-8c88-2bdaecb9f8be/imagem_2023-01-30_112707205.png)" width="100%">
+  <img alt="BeTheHero" src="https://github.com/SostenisVinicius/SaveAFriend/blob/master/web/src/images/imagem_2023-01-30_112707205.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
